@@ -7,8 +7,14 @@
     font-family: "Roboto", sans-serif
 }
 
+html, body {
+    height: 100%;
+}
+
+
 body{
     background-color: #161a1d;
+    position: relative;
 }
 
 /* HEADER */
@@ -25,6 +31,10 @@ body{
     font-size: 24px;
 }
 
+.header-titulo:hover{
+    cursor: pointer;
+}
+
 nav{
     position: absolute;
     right: 20px;
@@ -35,8 +45,20 @@ nav{
 nav a{
     text-decoration: none;
     margin-left: 20px;
-    color: white;
+    color: #ba181b;
+    background-color: white;
     font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #ba181b;
+    color: white;
+    transform: scale(1.09);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /*HERO*/
@@ -72,17 +94,10 @@ h1{
 }
 
 /* MAIN */
-main{
-    background-color: #b1a7a6;
-    position: relative;
-    height: 100vh;
-}
-
 .recetario{
     width: 75%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    position: static;
+    margin: auto;
 }
 
 .recetario-receta{
@@ -130,13 +145,52 @@ ul{
     padding: 10px;
     display: inline-block;
     border-radius: 30px;
+    transition: all 0.5s ease;
+    margin-left: 10px;
+}
+
+.receta-costo:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #ba181b;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9); /* sombra más oscura y profunda */
 }
 
 
 /* FOOTER */
 footer {
     width: 100%;
-    height: 10px;
-    background-color: aqua;
+    height: 120px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.5)), #ba181b;
+    color: white;
     text-align: center;
+    position: relative;
+    padding: 30px;
 }
+
+.contacto{
+    display: inline-block;
+}
+
+.mail, .telefono{
+    text-decoration: none;
+    color: #ba181b;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.mail:hover, .telefono:hover {
+    background-color: #ba181b;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.copy{
+    margin-top: 20px;
+}
+
+
