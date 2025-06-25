@@ -24,6 +24,8 @@ Este es un proyecto simple de una página web para un restaurante ficticio llama
 ├── index.html
 ├── CSS/
 │ └── style.css
+├── IMG/
+│ 
 └── README.md
 ```
 
@@ -36,4 +38,4 @@ Podés ver el sitio en funcionamiento en el siguiente enlace:
 
 ## ✍️ Autor
 
-- **Facundo Thomas Ramirez**
+**Facundo Thomas Ramirez**
