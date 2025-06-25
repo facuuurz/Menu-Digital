@@ -25,7 +25,11 @@ Este es un proyecto simple de una página web para un restaurante ficticio llama
 ├── CSS/
 │ └── style.css
 ├── IMG/
-│ 
+│  └── fondo hero.jpg
+│  └── tacos.jpg
+│  └── pizza.jpg
+│  └── Fideos.jpg
+│  └── Empanada de Pollo.jpg
 └── README.md
 ```
 
