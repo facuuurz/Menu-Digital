@@ -29,6 +29,7 @@ body{
 .header-titulo{
     display: inline-block;
     font-size: 24px;
+    font-style: italic;
 }
 
 .header-titulo:hover{
